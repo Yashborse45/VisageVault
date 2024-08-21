@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #F4F4F9;
+    background-image: url('https://xmple.com/wallpaper/highlight-white-gradient-yellow-linear-2560x1536-c2-ffd700-ffffff-l-67-a-135-f-21.svg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,11 +14,15 @@ body {
 
 .header {
     background-color: white;
-    color: #FFD700;
+    color: #333;
     display: flex;
     align-items: center;
     padding: 10px 20px;
     justify-content: space-between;
+    cursor: pointer;
+    &:hover{
+        color: #FFD600;
+    }
 }
 
 .header-brand {
@@ -68,7 +76,7 @@ button:hover {
 }
 
 .header-nav a {
-    color: #FFD700;
+    color: #333;
     text-decoration: none;
     margin-left: 40px;
 }
