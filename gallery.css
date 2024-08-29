@@ -1,0 +1,31 @@
+*{
+    margin: 10px;
+    padding:  5px;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box1{
+    background-color: aqua;
+    height: 200px;
+    width: 320px;
+    display: flex;
+    
+}
+.container1{
+    display: flex;
+}
+.container2{
+    display: flex;
+}
+
+.container3{
+    display: flex;
+}
+.container4{
+    display: flex;
+}
